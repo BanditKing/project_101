@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class MainController {
     @RequestMapping("/")
     String home() {
-        return "";
+        return "정상 작동중 입니다.";
     }
 }
